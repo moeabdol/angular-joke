@@ -1,11 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppComponent } from './app.component';
+import { AppComponent } from "./app.component";
+import { JokeComponent } from "./joke.component";
+import { JokeListComponent } from "./joke-list.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JokeComponent,
+    JokeListComponent
   ],
   imports: [
     BrowserModule
