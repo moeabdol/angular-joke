@@ -4,12 +4,14 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { JokeComponent } from "./joke.component";
 import { JokeListComponent } from "./joke-list.component";
+import { JokeFormComponent } from "./joke-form.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     JokeComponent,
-    JokeListComponent
+    JokeListComponent,
+    JokeFormComponent
   ],
   imports: [
     BrowserModule
