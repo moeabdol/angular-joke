@@ -1,5 +1,7 @@
 import { Component } from "@angular/core";
 
+import { Joke } from "./joke";
+
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -7,4 +9,6 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "app";
+  joke: Joke = new Joke("A kid threw a lump of cheddar at me",
+    "I though 'That 's not mature'");
 }
