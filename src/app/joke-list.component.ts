@@ -4,10 +4,7 @@ import { Joke } from "./joke";
 
 @Component({
   selector: "joke-list",
-  template: `
-    <joke-form (jokeCreated)="addJoke($event)"></joke-form>
-    <joke *ngFor="let j of jokes" [joke]="j"></joke>
-  `
+  templateUrl: "./joke-list.component.html"
 })
 export class JokeListComponent {
   jokes: Joke[];
