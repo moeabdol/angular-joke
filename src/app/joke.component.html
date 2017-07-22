@@ -1,4 +1,4 @@
-<div class="card card-block m-3" ccCardHover>
+<div class="card card-block m-3" [ccCardHover]="{querySelector: '.card-text'}">
   <h4 class="card-title">{{ data.setup }}</h4>
   <p class="card-text" [style.display]="'none'">{{ data.punchline }}</p>
 </div>
