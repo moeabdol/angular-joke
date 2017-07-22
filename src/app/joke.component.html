@@ -1,10 +1,6 @@
-<div class="card card-block">
-  <h4 class="card-title">
-    <ng-content select=".setup"></ng-content>
-  </h4>
-  <p class="card-text" [hidden]="data.hide">
-    <ng-content select=".punchline"></ng-content>
-  </p>
+<div class="card card-block m-3" ccCardHover>
+  <h4 class="card-title">{{ data.setup }}</h4>
+  <p class="card-text" [hidden]="data.hide">{{ data.punchline }}</p>
   <a class="btn btn-warning"
       (click)="data.toggle()">Tell Me</a>
 </div>

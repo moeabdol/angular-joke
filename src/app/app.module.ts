@@ -4,14 +4,14 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { JokeComponent } from "./joke.component";
 import { JokeListComponent } from "./joke-list.component";
-import { JokeFormComponent } from "./joke-form.component";
+import { CardHoverDirective } from "./card-hover.directive";
 
 @NgModule({
   declarations: [
     AppComponent,
     JokeComponent,
     JokeListComponent,
-    JokeFormComponent
+    CardHoverDirective
   ],
   imports: [
     BrowserModule
